@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+header {
+  background: rgba(243, 237, 123, 1);
+  padding: 1em 0;
+}
+
+.row2 {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav__item {
+  margin-right: 2em;
+}
+
+.nav__link {
+  color: rgba(66, 29, 5, 1);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 50%;
+  padding-left: 10px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  background-image: url(images/green1234.jpg);
+  background-size: cover;
+  padding-top: 400px;
+  padding-bottom: 400px;
+  font-size: 6rem;
+  color: rgba(243, 237, 123, 1);
+  display: flex;
+  justify-content: center;
+}
+
+.section-title {
+  padding-top: 70px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.big {
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 35px;
+}
+
+.bigger h2 {
+  font-size: 2em;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.solar img {
+  border-radius: 50px;
+  width: 90%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.works img {
+  width: 90%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.listtext {
+  font-size: 25px;
+  line-height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.light {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 800px) {
+  .row {
+    display: flex;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .col + .col {
+    margin-left: 5em;
+  }
+}
+
+footer {
+  padding-top: 25px;
+  text-align: center;
+  color: black;
+}
+
+footer a {
+  color: black;
+}
